@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Hope Gym",
+    "slug": "hopegym",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/applogo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/web-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B0B"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B0B",
+        "foregroundImage": "./assets/applogo.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/applogo.png"
+    }
+  }
+}
