@@ -24,7 +24,7 @@ import { galleryItems as galleryFallback } from '@/data/gallery';
 import { stats as statsFallback } from '@/data/stats';
 
 const API_URL =
-  process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+  process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || 'https://hopegym.onrender.com';
 
 async function getJson<T>(path: string, fallback: T): Promise<T> {
   try {

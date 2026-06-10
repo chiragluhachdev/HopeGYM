@@ -5,7 +5,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export const API_URL = 'http://localhost:4000'; // Change to real URL in production
+export const API_URL = 'https://hopegym.onrender.com'; // Production URL
 
 const api = axios.create({
   baseURL: `${API_URL}/api`,
